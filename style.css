@@ -1,0 +1,598 @@
+header,footer{
+    background-color: black;
+}
+header{
+    height: 50px;
+    color: white;
+    align-content: center;
+}
+header .name{
+    top:15px;
+    left:70px;
+    position: absolute;
+}
+header img{
+    height: 40px;
+    width: 40px;
+    left:20px;
+    top: 5px;
+    position: absolute;
+    border-radius: 50px;
+}
+footer{
+    color: white;
+    align-content: center;
+    text-align: center;
+    top: 100px;
+}
+body{
+    background-image: url("logos/m2.jpeg");
+    background-size:300px;
+}
+.container{
+    height: 622px;
+}
+.welcome h1{ 
+    font-size: 70px;
+    font-family: Inter;
+    font-weight: 500;
+    top: 60px; 
+    left: 200px;
+    position: absolute;
+    color: rgb(175, 5, 62);
+    border-radius: 10px;
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+}
+.welcome p{
+     /* Add styles for the modal body */
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42.36px;
+    align-self: center;
+    border-bottom: none;
+    top: 510px; 
+    left: 550px;
+    position: absolute;
+    color:burlywood;
+}
+.welcome .btn{
+    width: 150px; /* Set the width */
+    height: 50px; /* Set the height */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Apply border-radius for rounded corners */
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    align-content: center;
+    color: black;
+    font-family: Out;
+    font-size: large;
+    font-weight: bolder;
+    outline: none;
+    position: absolute; /* Set position to relative */
+    top: 575px; 
+    left: 675px;
+}
+.welcome img{
+    height: 300px;
+    width: 300px;
+    top:170px;
+    left: 620px;
+    position: absolute;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    border: 0.86px solid transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.login{
+    top: 70px;
+    left: 30px;
+    position: absolute;
+    gap: 0px;
+    border-radius: 30px;
+    padding: 30px;
+}
+.login-form{
+    width: 400px;
+    height: 500px;
+    top: 80px;
+    left: 700px;
+    border-radius: 30px;
+    border: 0.86px;
+    opacity: 0px;
+    inline-size: none;
+    text-align: center;
+    position: absolute; /* Ensure absolute positioning */
+    transform: translateX(-50%); /* Center horizontally */
+    flex-direction: column;
+    align-content: end;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    border: 0.86px solid transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.login-form h1{
+    left: 160px;
+    top:10px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42.36px;
+    color: #FFFFFF;
+    align-self: center;
+    border-bottom: none;
+    position: absolute;
+}
+.login-form label{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 36.31px;
+  color: #FFFFFF;
+
+}
+.login-form .form-control{
+    width: calc(190px + 100px) !important; /* Adjust width to fit within the modal body */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Ensure the whole border is used for the gradient */
+    border-radius: 30px !important; /* Apply border-radius for curved edges */
+    margin-bottom: 10px; /* Add margin-bottom for spacing between inputs */
+    font-family: Out;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    background-color: transparent;
+    color: #BCBEC0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.login-form .btn{
+    width: 100px; /* Set the width */
+    height: 40px; /* Set the height */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Apply border-radius for rounded corners */
+    background-color:palevioletred;
+    border: none;
+    border-radius: 30px;
+    align-content: center;
+    color: black;
+    font-family: Out;
+    font-size: medium;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    bottom: -30px;
+    left: 125px;
+}
+.login-form p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 42.36px;
+    align-self: center;
+    border-bottom: none;
+    color: white;
+}
+.signin{
+        top: 20px;
+        left: 30px;
+        position: absolute;
+        gap: 0px;
+        border-radius: 30px;
+        padding: 30px;
+}
+.signin-form label{
+    font-family: Inter;
+    color: #FFFFFF;
+}
+.signin-form{
+    width: 400px;
+    height: 580px;
+    top: 80px;
+    left: 700px;
+    border-radius: 30px;
+    border: 0.86px;
+    opacity: 0px;
+    inline-size: none;
+    text-align: center;
+    position: absolute; /* Ensure absolute positioning */
+    transform: translateX(-50%); /* Center horizontally */
+    flex-direction: column;
+    align-content: end;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    border: 0.86px solid transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.signin-form h1{
+    left: 150px;
+    top:10px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42.36px;
+    color: #FFFFFF;
+    align-self: center;
+    border-bottom: none;
+    position: absolute;
+}
+.signin-form .form-control{
+    width: calc(190px + 100px) !important; /* Adjust width to fit within the modal body */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Ensure the whole border is used for the gradient */
+    border-radius: 30px !important; /* Apply border-radius for curved edges */
+    margin-bottom: 10px; /* Add margin-bottom for spacing between inputs */
+    font-family: Out;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    background-color: transparent;
+    color: #BCBEC0;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}
+.signin-form .btn{
+    border: none; /* Remove border */
+    border-radius: 20px; /* Apply border-radius for rounded corners */
+    background-color:palegoldenrod;
+    border: none;
+    border-radius: 30px;
+    align-content: center;
+    color: black;
+    font-family: Out;
+    font-size: medium;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    bottom:-50px;
+    left: 120px;
+}
+.signin-form .button{
+    border: none; /* Remove border */
+    border-radius: 20px; /* Apply border-radius for rounded corners */
+    background-color:palevioletred;
+    border: none;
+    border-radius: 30px;
+    align-content: center;
+    color: black;
+    font-family: Out;
+    font-size: medium;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    bottom: -10px;
+    left: 140px;
+    padding: 10px;
+}
+.home{
+    width: 400px;
+    height: 500px;
+    top: 80px;
+    left: 750px;
+    border-radius: 30px;
+    border: 0.86px;
+    opacity: 0px;
+    inline-size: none;
+    text-align: center;
+    position: absolute; /* Ensure absolute positioning */
+    transform: translateX(-50%); /* Center horizontally */
+    flex-direction: column;
+    align-content: end;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    border: 0.86px solid transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.home h1{
+    left:55px;
+    top:10px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42.36px;
+    color: #FFFFFF;
+    align-self: center;
+    border-bottom: none;
+    position: absolute;
+}
+.dashboard-list{
+    font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 36.31px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 20px;
+  top: 100px;
+}
+.dashboard-list .btn{
+    font-family: Inter; /* Use Inter font */
+    font-size: 20px;
+    font-weight: 300;
+    border: none; /* Remove border */
+    border-radius: 40px; /* Apply border-radius for rounded corners */
+    background-color: palevioletred; /* Button background color */
+    color: black; /* Button text color */
+    display: flex;
+    align-items:center; /* Center text vertically */
+    width: 100%; /* Set the button width */
+    padding: 15px;
+    margin: 25px;
+    margin-left: 10px;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+.btn i {
+    margin-right: 8px; /* Adjust the value as needed */
+}
+.profile{
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    gap: 0px;
+    border-radius: 30px;
+    padding: 30px;
+}
+.profile-form label{
+    font-family: Inter;
+    color: #FFFFFF;
+    font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.profile-form{
+width: 400px;
+height: 500px;
+top: 80px;
+left: 750px;
+border-radius: 30px;
+border: 0.86px;
+opacity: 0px;
+inline-size: none;
+text-align: center;
+position: absolute; /* Ensure absolute positioning */
+transform: translateX(-50%); /* Center horizontally */
+flex-direction: column;
+align-content: end;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+backdrop-filter: blur(10px);
+background-color: transparent;
+border: 0.86px solid transparent;
+border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.profile-form h1{
+left: 100px;
+top:20px;
+font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+line-height: 42.36px;
+color: #FFFFFF;
+align-self: center;
+border-bottom: none;
+position: absolute;
+}
+.profile-form .form-control{
+width: calc(190px + 100px); /* Adjust width to fit within the modal body */
+border: 1px solid rgba(255, 255, 255, 0.1); /* Ensure the whole border is used for the gradient */
+border-radius: 30px !important; /* Apply border-radius for curved edges */
+margin-bottom: 10px; /* Add margin-bottom for spacing between inputs */
+font-family: Out;
+font-size: 15px;
+line-height: 25px;
+text-align: left;
+background-color: transparent;
+color: #BCBEC0;
+background-color: rgba(255, 255, 255, 0.1);
+padding: 10px;
+}
+.profile-form .btn{
+border: none; /* Remove border */
+border-radius: 20px; /* Apply border-radius for rounded corners */
+background-color:palegoldenrod;
+border: none;
+border-radius: 30px;
+align-content: center;
+color: black;
+font-family: Out;
+font-size: medium;
+font-weight: bold;
+outline: none;
+position: absolute;
+bottom: -80px;
+left: 100px;
+}
+.profile-form .button{
+    border: none; /* Remove border */
+    border-radius: 20px; /* Apply border-radius for rounded corners */
+    background-color:palevioletred;
+    border: none;
+    border-radius: 30px;
+    align-content: center;
+    color: black;
+    font-family: Out;
+    font-size: medium;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    bottom: -20px;
+    left: 145px;
+    padding: 10px;
+}
+.password{
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    gap: 0px;
+    border-radius: 30px;
+    padding: 30px;
+}
+.password-form label{
+    font-family: Inter;
+    color: #FFFFFF;
+    font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.password-form{
+width: 400px;
+height: 500px;
+top: 80px;
+left: 750px;
+border-radius: 30px;
+border: 0.86px;
+opacity: 0px;
+inline-size: none;
+text-align: center;
+position: absolute; /* Ensure absolute positioning */
+transform: translateX(-50%); /* Center horizontally */
+flex-direction: column;
+align-content: end;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+backdrop-filter: blur(10px);
+background-color: transparent;
+border: 0.86px solid transparent;
+border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.password-form h1{
+left: 100px;
+top:20px;
+font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+line-height: 42.36px;
+color: #FFFFFF;
+align-self: center;
+border-bottom: none;
+position: absolute;
+}
+.password-form .form-control{
+width: calc(190px + 100px); /* Adjust width to fit within the modal body */
+border: 1px solid rgba(255, 255, 255, 0.1); /* Ensure the whole border is used for the gradient */
+border-radius: 30px !important; /* Apply border-radius for curved edges */
+margin-bottom: 10px; /* Add margin-bottom for spacing between inputs */
+font-family: Out;
+font-size: 15px;
+line-height: 25px;
+text-align: left;
+background-color: transparent;
+color: #BCBEC0;
+background-color: rgba(255, 255, 255, 0.1);
+padding: 10px;
+}
+.password-form .btn{
+border: none; /* Remove border */
+border-radius: 20px; /* Apply border-radius for rounded corners */
+background-color:palegoldenrod;
+border: none;
+border-radius: 30px;
+align-content: center;
+color: black;
+font-family: Out;
+font-size: medium;
+font-weight: bold;
+outline: none;
+position: absolute;
+bottom: -100px;
+left: 105px;
+}
+.password-form .button{
+    border: none; /* Remove border */
+    border-radius: 20px; /* Apply border-radius for rounded corners */
+    background-color:palevioletred;
+    border: none;
+    border-radius: 30px;
+    align-content: center;
+    color: black;
+    font-family: Out;
+    font-size: medium;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    bottom: -50px;
+    left: 110px;
+    padding: 10px;
+}
+.holiday-table{
+    width: 400px;
+    height: 500px;
+    top: 80px;
+    left: 750px;
+    border-radius: 30px;
+    border: 0.86px;
+    opacity: 0px;
+    inline-size: none;
+    text-align: center;
+    position: absolute; /* Ensure absolute positioning */
+    transform: translateX(-50%); /* Center horizontally */
+    flex-direction: column;
+    align-content: end;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    border: 0.86px solid transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.holiday-table h1{
+    left: 100px;
+    top:20px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42.36px;
+    color: #FFFFFF;
+    align-self: center;
+    border-bottom: none;
+    position: absolute;
+}
+.holiday-table .btn{
+    border: none; /* Remove border */
+    border-radius: 20px; /* Apply border-radius for rounded corners */
+    background-color:palegoldenrod;
+    border: none;
+    border-radius: 30px;
+    align-content: center;
+    color: black;
+    font-family: Out;
+    font-size: medium;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+}
+table {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    border-collapse: collapse; /* Ensure borders are combined */
+}
+
+thead th {
+    border: 1px solid white; /* White border for header */
+    color: palevioletred;
+}
+
+tbody td {
+    border: 1px solid white; /* White border for cells */
+    color: white; /* White text color for cells */
+}
+
