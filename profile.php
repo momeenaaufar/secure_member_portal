@@ -10,7 +10,7 @@ if (!isset($_SESSION['user_id'])) {
 
 $user_id = $_SESSION['user_id'];
 
-// Fetch user profile data
+
 $stmt = $pdo->prepare('SELECT email, fullName, city FROM tbl_users WHERE userID = ?');
 $stmt->execute([$user_id]);
 $user = $stmt->fetch();

@@ -1,10 +1,10 @@
 <?php
-session_start(); // Start the session
+session_start(); 
 
-include 'conn.php'; // Connect to the database
-include 'header.php'; // Include the header
+include 'conn.php'; 
+include 'header.php'; 
 
-// Initialize variables to store error messages and input values
+
 $error = '';
 $full_name = '';
 $email = '';
@@ -12,7 +12,7 @@ $password = '';
 $confirm_password = '';
 $city = '';
 
-// Check if the form is submitted
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $full_name = $_POST['full_name'];
     $email = $_POST['email'];
@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $confirm_password = $_POST['confirm_password'];
     $city = $_POST['city'];
 
-    // Validate input
+    
     if (empty($full_name) || empty($email) || empty($password) || empty($confirm_password) || empty($city)) {
         $error = 'Please fill in all fields.';
     } elseif ($password !== $confirm_password) {
@@ -34,12 +34,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($email_exists) {
             $error = 'This email is already registered.';
         } else {
-            // Insert the new user into the database
-            // Note: Here we're inserting the plaintext password directly (NOT RECOMMENDED)
+            
             $stmt = $pdo->prepare('INSERT INTO tbl_users (fullName, email, password, city) VALUES (?, ?, ?, ?)');
             $stmt->execute([$full_name, $email, $password, $city]);
 
-            // Redirect to login page
+
             header('Location: login.php');
             exit;
         }
@@ -82,4 +81,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 </div>
 
-<?php include 'footer.php'; // Include the footer ?>
+<?php include 'footer.php'; ?>

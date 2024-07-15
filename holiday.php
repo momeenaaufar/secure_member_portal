@@ -8,13 +8,12 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
-// API endpoint for public holidays
+
 $api_url = 'https://data.gov.sg/api/action/datastore_search?resource_id=6228c3c5-03bd-4747-bb10-85140f87168b&limit=10';
 
-// Fetch data from the API
+
 $response = file_get_contents($api_url);
 
-// Check if API request was successful
 if ($response === false) {
     echo "Failed to fetch holidays. Please try again later.";
 } else {

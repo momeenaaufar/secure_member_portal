@@ -15,14 +15,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $old_password = $_POST['old_password'];
     $new_password = $_POST['new_password'];
 
-    // Fetch the current password from the database
+   
     $stmt = $pdo->prepare('SELECT password FROM tbl_users WHERE userID = ?');
     $stmt->execute([$user_id]);
     $user = $stmt->fetch();
 
-    // For demonstration purposes, compare passwords as plain text
+    
     if ($user && $old_password === $user['password']) {
-        // Update the password
+        
         $stmt = $pdo->prepare('UPDATE tbl_users SET password = ? WHERE userID = ?');
         $stmt->execute([$new_password, $user_id]);
 

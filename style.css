@@ -119,12 +119,12 @@ body {
 
 .content {
     display: flex;
-    align-items: flex-start; /* Align items to the top */
-    position: absolute; /* To keep absolute positioning */
-    top: 20px; /* Adjust the top position */
-    left: 200px; /* Adjust the left position */
-    width: calc(50% - 20px); /* Adjust width to accommodate padding */
-    gap: 100px; /* Space between paragraph and image */
+    align-items: flex-start; 
+    position: absolute; 
+    top: 20px; 
+    left: 200px; 
+    width: calc(50% - 20px);
+    gap: 100px;
     
 }
 .login{
@@ -145,8 +145,8 @@ body {
     opacity: 0px;
     inline-size: none;
     text-align: center;
-    position: absolute; /* Ensure absolute positioning */
-    transform: translateX(-50%); /* Center horizontally */
+    position: absolute; 
+    transform: translateX(-50%); 
     flex-direction: column;
     align-content: end;
     justify-content: center;
@@ -178,10 +178,10 @@ body {
 
 }
 .login-form .form-control{
-    width: calc(190px + 100px) !important; /* Adjust width to fit within the modal body */
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Ensure the whole border is used for the gradient */
-    border-radius: 30px !important; /* Apply border-radius for curved edges */
-    margin-bottom: 10px; /* Add margin-bottom for spacing between inputs */
+    width: calc(190px + 100px) !important; 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px !important; 
+    margin-bottom: 10px; 
     font-family: Out;
     font-size: 15px;
     line-height: 25px;
@@ -191,10 +191,10 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
 }
 .login-form .btn{
-    width: 100px; /* Set the width */
-    height: 40px; /* Set the height */
-    border: none; /* Remove border */
-    border-radius: 20px; /* Apply border-radius for rounded corners */
+    width: 100px; 
+    height: 40px; 
+    border: none; 
+    border-radius: 20px;
     background-color:black;
     border: none;
     border-radius: 30px;
@@ -221,8 +221,8 @@ body {
     bottom: 20px;
 }
 .login-form .button{
-    border: none; /* Remove border */
-    border-radius: 20px; /* Apply border-radius for rounded corners */
+    border: none; 
+    border-radius: 20px; 
     background-color:palegoldenrod;
     border: none;
     border-radius: 30px;
@@ -262,8 +262,8 @@ body {
     opacity: 0px;
     inline-size: none;
     text-align: center;
-    position: absolute; /* Ensure absolute positioning */
-    transform: translateX(-50%); /* Center horizontally */
+    position: absolute; 
+    transform: translateX(-50%);
     flex-direction: column;
     align-content: end;
     justify-content: center;
@@ -287,10 +287,10 @@ body {
     position: absolute;
 }
 .signin-form .form-control{
-    width: calc(190px + 100px) !important; /* Adjust width to fit within the modal body */
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Ensure the whole border is used for the gradient */
-    border-radius: 30px !important; /* Apply border-radius for curved edges */
-    margin-bottom: 10px; /* Add margin-bottom for spacing between inputs */
+    width: calc(190px + 100px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 30px !important; 
+    margin-bottom: 10px; 
     font-family: Out;
     font-size: 15px;
     line-height: 25px;
@@ -301,8 +301,8 @@ body {
     padding: 10px;
 }
 .signin-form .btn{
-    border: none; /* Remove border */
-    border-radius: 20px; /* Apply border-radius for rounded corners */
+    border: none; 
+    border-radius: 20px; 
     background-color:palegoldenrod;
     border: none;
     border-radius: 30px;
@@ -317,8 +317,8 @@ body {
     left: 120px;
 }
 .signin-form .button{
-    border: none; /* Remove border */
-    border-radius: 20px; /* Apply border-radius for rounded corners */
+    border: none; 
+    border-radius: 20px; 
     background-color:black;
     border: none;
     border-radius: 30px;
@@ -343,8 +343,8 @@ body {
     opacity: 0px;
     inline-size: none;
     text-align: center;
-    position: absolute; /* Ensure absolute positioning */
-    transform: translateX(-50%); /* Center horizontally */
+    position: absolute; 
+    transform: translateX(-50%); 
     flex-direction: column;
     align-content: end;
     justify-content: center;
@@ -378,23 +378,23 @@ body {
   top: 100px;
 }
 .dashboard-list .btn{
-    font-family: Out; /* Use Inter font */
+    font-family: Out; 
     font-size: 20px;
     font-weight: 300;
-    border: none; /* Remove border */
-    border-radius: 40px; /* Apply border-radius for rounded corners */
-    background-color:white; /* Button background color */
-    color: black; /* Button text color */
+    border: none; 
+    border-radius: 40px; 
+    background-color:white; 
+    color: black; 
     display: flex;
-    align-items:center; /* Center text vertically */
-    width: 100%; /* Set the button width */
+    align-items:center; 
+    width: 100%; 
     padding: 15px;
     margin: 25px;
     margin-left: 10px;
-    transition: background-color 0.3s; /* Smooth hover effect */
+    transition: background-color 0.3s; 
 }
 .btn i {
-    margin-right: 8px; /* Adjust the value as needed */
+    margin-right: 8px; 
 }
 .profile{
     top: 20px;
@@ -422,8 +422,8 @@ border: 0.86px;
 opacity: 0px;
 inline-size: none;
 text-align: center;
-position: absolute; /* Ensure absolute positioning */
-transform: translateX(-50%); /* Center horizontally */
+position: absolute; 
+transform: translateX(-50%); 
 flex-direction: column;
 align-content: end;
 justify-content: center;
@@ -447,10 +447,10 @@ border-bottom: none;
 position: absolute;
 }
 .profile-form .form-control{
-width: calc(190px + 100px); /* Adjust width to fit within the modal body */
-border: 1px solid rgba(255, 255, 255, 0.1); /* Ensure the whole border is used for the gradient */
-border-radius: 30px !important; /* Apply border-radius for curved edges */
-margin-bottom: 10px; /* Add margin-bottom for spacing between inputs */
+width: calc(190px + 100px); 
+border: 1px solid rgba(255, 255, 255, 0.1); 
+border-radius: 30px !important; 
+margin-bottom: 10px; 
 font-family: Out;
 font-size: 15px;
 line-height: 25px;
@@ -461,8 +461,8 @@ background-color: rgba(255, 255, 255, 0.1);
 padding: 10px;
 }
 .profile-form .btn{
-border: none; /* Remove border */
-border-radius: 20px; /* Apply border-radius for rounded corners */
+border: none;
+border-radius: 20px; 
 background-color:palegoldenrod;
 border: none;
 border-radius: 30px;
@@ -477,8 +477,8 @@ bottom: -80px;
 left: 100px;
 }
 .profile-form .button{
-    border: none; /* Remove border */
-    border-radius: 20px; /* Apply border-radius for rounded corners */
+    border: none;
+    border-radius: 20px; 
     background-color:black;
     border: none;
     border-radius: 30px;
@@ -519,8 +519,8 @@ border: 0.86px;
 opacity: 0px;
 inline-size: none;
 text-align: center;
-position: absolute; /* Ensure absolute positioning */
-transform: translateX(-50%); /* Center horizontally */
+position: absolute; 
+transform: translateX(-50%);
 flex-direction: column;
 align-content: end;
 justify-content: center;
@@ -544,10 +544,10 @@ border-bottom: none;
 position: absolute;
 }
 .password-form .form-control{
-width: calc(190px + 100px); /* Adjust width to fit within the modal body */
-border: 1px solid rgba(255, 255, 255, 0.1); /* Ensure the whole border is used for the gradient */
-border-radius: 30px !important; /* Apply border-radius for curved edges */
-margin-bottom: 10px; /* Add margin-bottom for spacing between inputs */
+width: calc(190px + 100px); 
+border: 1px solid rgba(255, 255, 255, 0.1); 
+border-radius: 30px !important; 
+margin-bottom: 10px; 
 font-family: Out;
 font-size: 15px;
 line-height: 25px;
@@ -558,8 +558,8 @@ background-color: rgba(255, 255, 255, 0.1);
 padding: 10px;
 }
 .password-form .btn{
-border: none; /* Remove border */
-border-radius: 20px; /* Apply border-radius for rounded corners */
+border: none; 
+border-radius: 20px; 
 background-color:palegoldenrod;
 border: none;
 border-radius: 30px;
@@ -574,8 +574,8 @@ bottom: -100px;
 left: 105px;
 }
 .password-form .button{
-    border: none; /* Remove border */
-    border-radius: 20px; /* Apply border-radius for rounded corners */
+    border: none;
+    border-radius: 20px; 
     background-color:black;
     border: none;
     border-radius: 30px;
@@ -600,8 +600,8 @@ left: 105px;
     opacity: 0px;
     inline-size: none;
     text-align: center;
-    position: absolute; /* Ensure absolute positioning */
-    transform: translateX(-50%); /* Center horizontally */
+    position: absolute; 
+    transform: translateX(-50%); 
     flex-direction: column;
     align-content: end;
     justify-content: center;
@@ -625,8 +625,8 @@ left: 105px;
     position: absolute;
 }
 .holiday-table .btn{
-    border: none; /* Remove border */
-    border-radius: 20px; /* Apply border-radius for rounded corners */
+    border: none;
+    border-radius: 20px; 
     background-color:palegoldenrod;
     border: none;
     border-radius: 30px;
@@ -644,20 +644,20 @@ table {
     position: absolute;
     top: 100px;
     width: 100%;
-    border-collapse: collapse; /* Ensure borders are combined */
+    border-collapse: collapse;
 }
 
 thead th {
-    border: 1px solid white; /* White border for header */
+    border: 1px solid white; 
     color: black;
 }
 
 tbody td {
-    border: 1px solid white; /* White border for cells */
-    color: white; /* White text color for cells */
+    border: 1px solid white; 
+    color: white; 
 }
 .login-form div {
-    margin-bottom: 20px; /* Add spacing between form elements */
+    margin-bottom: 20px; 
 }
 @font-face {
     font-family: 'Out';

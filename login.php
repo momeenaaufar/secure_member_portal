@@ -1,43 +1,42 @@
 <?php
-session_start(); // Start the session
+session_start(); 
 
-include 'conn.php'; // Connect to the database
-include 'header.php'; // Include the header
+include 'conn.php';
+include 'header.php'; 
 
-// Initialize variables to store error messages and input values
+
 $error = '';
 $email = '';
 $password = '';
 $remember_me = '';
 
-// Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
     $remember_me = isset($_POST['remember_me']);
 
-    // Validate input
+
     if (empty($email) || empty($password)) {
         $error = 'Please fill in both fields.';
     } else {
-        // Prepare and execute a query to check the user's credentials
+        
         $stmt = $pdo->prepare('SELECT userID, password FROM tbl_users WHERE email = ?');
         $stmt->execute([$email]);
         $user = $stmt->fetch();
 
-        if ($user && $password === $user['password']) { // Check plain text password
-            // Successful login
+        if ($user && $password === $user['password']) { 
+            
             $_SESSION['user_id'] = $user['userID'];
 
-            // Handle "Remember Me" functionality
+           
             if ($remember_me) {
                 setcookie('user_id', $user['userID'], time() + (86400 * 30), "/"); // Set cookie for 30 days
             }
 
-            header('Location: protected-home.php'); // Redirect to protected home page
+            header('Location: protected-home.php'); 
             exit;
         } else {
-            // Invalid credentials
+            
             $error = 'Invalid email or password.';
         }
     }
@@ -74,4 +73,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
     </div>
 </div>
 
-<?php include 'footer.php'; // Include the footer ?>
+<?php include 'footer.php';  ?>

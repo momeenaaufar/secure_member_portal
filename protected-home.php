@@ -1,12 +1,12 @@
 <?php
-session_start(); // Start the session
+session_start(); 
 
-include 'conn.php'; // Connect to the database
-include 'header.php'; // Include the header
+include 'conn.php'; 
+include 'header.php'; 
 
-// Check if the user is logged in
+
 if (!isset($_SESSION['user_id'])) {
-    header("Location: login.php"); // Redirect non-logged-in users to the login page
+    header("Location: login.php"); 
     exit;
 }
 ?>
@@ -23,4 +23,4 @@ if (!isset($_SESSION['user_id'])) {
     </div>
 </div>
 
-<?php include 'footer.php'; // Include the footer ?>
+<?php include 'footer.php'; ?>

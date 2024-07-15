@@ -1,11 +1,11 @@
 <?php
-session_start(); // Start the session to check login status
+session_start(); 
 include 'conn.php';
-include 'header.php'; // Include header
+include 'header.php'; 
 
-// Check if the user is logged in
+
 if (isset($_SESSION['user_id'])) {
-    header("Location: protected-home.php"); // Redirect logged-in users to the protected home page
+    header("Location: protected-home.php"); 
     exit;
 }
 ?>
@@ -24,7 +24,7 @@ if (isset($_SESSION['user_id'])) {
                         <img src="logos/Congratulation.png" alt="welcome image">
                 </div>
                 <p>Please log in to access your account.</p>
-                <a href="login.php" class="btn">Login</a> <!-- Link to the login page -->
+                <a href="login.php" class="btn">Login</a> 
         </div>
     </div>
 </div>
