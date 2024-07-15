@@ -31,7 +31,7 @@ footer {
 }
 
 body {
-    background-image: url("logos/3.jpg");
+    background-image: url("logos/1.jpg");
     background-size: cover;
 }
 
@@ -57,7 +57,7 @@ body {
     top: 30px;
     left: 100px;
     position: absolute;
-    color: black;
+    color:black;
 }
 
 .welcome .para {
@@ -69,12 +69,13 @@ body {
     top: 120px;
     left: -90px;
     position: absolute;
-    color: burlywood;
+    color:white;
     text-align: justify; 
     line-height: 30px; 
     border-radius: 30px;
     padding: 30px;
-    background-image: url(logos/3.jpg);
+    background-image: url('logos/1.jpg');
+    background-size: cover;
 }
 
 .welcome p {
@@ -84,21 +85,21 @@ body {
     line-height: 42.36px;
     align-self: center;
     border-bottom: none;
-    top: 470px;
+    top: 480px;
     left: 500px;
     position: absolute;
-    color: burlywood;
+    color: black;
 }
 .welcome .btn {
     width: 150px;
     height: 50px;
     border: none;
     border-radius: 20px;
-    background-color: black;
+    background-color: white;
     border: none;
     border-radius: 30px;
     align-content: center;
-    color: white;
+    color: black;
     font-family: Out;
     font-size: large;
     font-weight: bolder;
@@ -137,7 +138,7 @@ body {
 .login-form{
     width: 400px;
     height: 500px;
-    top: 80px;
+    top: 110px;
     left: 750px;
     border-radius: 30px;
     border: 0.86px;
@@ -163,7 +164,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     line-height: 42.36px;
-    color: #FFFFFF;
+    color: white;
     align-self: center;
     border-bottom: none;
     position: absolute;
@@ -173,7 +174,7 @@ body {
   font-size: 20px;
   font-weight: 300;
   line-height: 36.31px;
-  color: #FFFFFF;
+  color: black;
 
 }
 .login-form .form-control{
@@ -186,7 +187,7 @@ body {
     line-height: 25px;
     text-align: left;
     background-color: transparent;
-    color: #BCBEC0;
+    color:white;
     background-color: rgba(255, 255, 255, 0.1);
 }
 .login-form .btn{
@@ -249,12 +250,12 @@ body {
 }
 .signin-form label{
     font-family: Out;
-    color: #FFFFFF;
+    color:black;
 }
 .signin-form{
     width: 400px;
     height: 580px;
-    top: 80px;
+    top: 70px;
     left: 750px;
     border-radius: 30px;
     border: 0.86px;
@@ -295,7 +296,7 @@ body {
     line-height: 25px;
     text-align: left;
     background-color: transparent;
-    color: #BCBEC0;
+    color: white;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 10px;
 }
@@ -335,7 +336,7 @@ body {
 .home{
     width: 400px;
     height: 500px;
-    top: 80px;
+    top: 110px;
     left: 750px;
     border-radius: 30px;
     border: 0.86px;
@@ -382,8 +383,8 @@ body {
     font-weight: 300;
     border: none; /* Remove border */
     border-radius: 40px; /* Apply border-radius for rounded corners */
-    background-color: black; /* Button background color */
-    color: white; /* Button text color */
+    background-color:white; /* Button background color */
+    color: black; /* Button text color */
     display: flex;
     align-items:center; /* Center text vertically */
     width: 100%; /* Set the button width */
@@ -414,7 +415,7 @@ body {
 .profile-form{
 width: 400px;
 height: 500px;
-top: 80px;
+top: 110px;
 left: 750px;
 border-radius: 30px;
 border: 0.86px;
@@ -455,7 +456,7 @@ font-size: 15px;
 line-height: 25px;
 text-align: left;
 background-color: transparent;
-color: #BCBEC0;
+color: white;
 background-color: rgba(255, 255, 255, 0.1);
 padding: 10px;
 }
@@ -502,7 +503,7 @@ left: 100px;
 }
 .password-form label{
     font-family: Out;
-    color: #FFFFFF;
+    color:black;
   font-size: 20px;
   font-weight: 300;
     margin-top: 20px;
@@ -511,7 +512,7 @@ left: 100px;
 .password-form{
 width: 400px;
 height: 500px;
-top: 80px;
+top: 110px;
 left: 750px;
 border-radius: 30px;
 border: 0.86px;
@@ -531,7 +532,7 @@ border: 0.86px solid transparent;
 border: 1px solid rgba(255, 255, 255, 0.5);
 }
 .password-form h1{
-left: 100px;
+left: 80px;
 top:20px;
 font-family: Out;
 font-size: 30px;
@@ -552,7 +553,7 @@ font-size: 15px;
 line-height: 25px;
 text-align: left;
 background-color: transparent;
-color: #BCBEC0;
+color: white;
 background-color: rgba(255, 255, 255, 0.1);
 padding: 10px;
 }
@@ -592,7 +593,7 @@ left: 105px;
 .holiday-table{
     width: 400px;
     height: 500px;
-    top: 80px;
+    top: 110px;
     left: 750px;
     border-radius: 30px;
     border: 0.86px;
